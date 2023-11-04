@@ -87,11 +87,17 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
+    .button2,
+    .button3 {
+        width: 80px; /* Adjusted width for smaller screens */
+        height: 30px; /* Adjusted height for smaller screens */
+    }
+
     .button2 {
-        left: 30%; /* Adjusted left position for smaller screens */
+        left: 40%; /* Adjusted left position for smaller screens */
     }
 
     .button3 {
-        left: 70%; /* Adjusted left position for smaller screens */
+        left: 50%; /* Adjusted left position for smaller screens */
     }
 }
