@@ -86,11 +86,20 @@ cursor: pointer;
     box-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px cyan, 0 0 30px rgb(9, 57, 57), 0 0 50px rgb(0, 119, 255), 0 0 100px rgb(0, 8, 255); /* Optional - apply the box shadow effect if needed */
 }
 @media screen and (max-width: 768px) {
-    .button2 {
-        left: 30%; /* Adjusted left position for smaller screens */
+    .main-button {
+        width: 100%; /* Ensure main button takes full width */
+        text-align: center; /* Center the main button */
+    }
+
+    .button2,
+    .button3 {
+        width: calc(33.33% - 20px); /* Adjust width to fit three buttons with margin */
+        left: 33.33%; /* Position the buttons at one-third intervals */
+        position: relative;
+        margin: 0 10px; /* Adjust the margin for spacing */
     }
 
     .button3 {
-        left: 60%; /* Adjusted left position for smaller screens */
+        left: 66.66%; /* Position the third button */
     }
 }
