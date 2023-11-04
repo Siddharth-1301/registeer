@@ -86,4 +86,12 @@ cursor: pointer;
     box-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px cyan, 0 0 30px rgb(9, 57, 57), 0 0 50px rgb(0, 119, 255), 0 0 100px rgb(0, 8, 255); /* Optional - apply the box shadow effect if needed */
 }
 
+@media screen and (max-width: 768px) {
+    .button2 {
+        left: 50%; /* Adjusted left position for smaller screens */
+    }
 
+    .button3 {
+        left: 50%; /* Adjusted left position for smaller screens */
+    }
+}
